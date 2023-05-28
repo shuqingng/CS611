@@ -1,4 +1,4 @@
-Get latest changes from Git:
+Get latest changes from Git to local repo:
 1. Run <code>git pull</code> to retrieve latest changes from remote Git repository
 
 Switch branch:
