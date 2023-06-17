@@ -3,9 +3,8 @@ import numpy as np
 import os
 from sklearn.model_selection import train_test_split
 
-# bucket = 's3://sagemaker-mle-group7'
-
 input_data_path = os.path.join("/opt/ml/processing/input", "healthcare-dataset-stroke-data.csv")
+
 # df = pd.read_csv('data/healthcare-dataset-stroke-data.csv')
 df = pd.read_csv(input_data_path)
 df.dropna(inplace=True)
